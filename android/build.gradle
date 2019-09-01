@@ -41,8 +41,6 @@ repositories {
     }
 }
 
-def support_version = getExtOrDefault('supportLibVersion')
-
 dependencies {
     api 'com.facebook.react:react-native:+'
     implementation 'me.leolin:ShortcutBadger:1.1.17@aar'
