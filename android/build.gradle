@@ -45,6 +45,5 @@ def support_version = getExtOrDefault('supportLibVersion')
 
 dependencies {
     api 'com.facebook.react:react-native:+'
-    implementation "com.android.support:appcompat-v7:$support_version"
     implementation 'me.leolin:ShortcutBadger:1.1.17@aar'
 }
