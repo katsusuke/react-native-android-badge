@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 
     dependencies {
@@ -29,7 +29,7 @@ android {
         versionName "1.0"
     }
     
-    lintOptions {
+    lint {
         disable 'GradleCompatible'
     }
 }
